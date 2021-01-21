@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Best Thing Ever</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+</head>
+<!--
+  🔲 Add a form
+  🔲 Add the Tailwind library
+  🔲 Add our first Tailwind CSS class
+  🔲 Add a splash of color
+  🔲 Typography
+  🔲 Borders
+  🔲 Sizing
+  🔲 Box Model
+  🔲 Layout/Flexbox
+  🔲 Responsive Design
+ -->
+<body>
+  <h1 class="text-center m-8 capitalize font-bold text-2xl text-purple-500 uppercase">Welcome to the best product ever</h1>
+
+  <div class="px-16 md:flex bg-gray-100">
+    <div class="md:p-16 md:w-1/2 space-y-4">
+      <img class="rounded-xl w-96" src="https://images.unsplash.com/photo-1565443492615-7e3d2324d925?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80">
+    </div>
+      <div>
+      <h2 class="font-bold text-xl">It's Revolutionary.</h2>
+      <p>It's more revolutionary than <a href="http://google.com/">Google.</a></p>
+
+      <h2 class="font-bold text-xl">It's Life-Changing.</h2>
+      <p>You'll wonder how you lived without it.</p>
+
+      <h2 class="font-bold text-xl">It's Free.</h2>
+      <p>In fact, we'll pay you.</p>
+      </div>
+  </div>
+
+  <div class="m-8">
+    <h1 class="text-center m-8 capitalize font-bold text-2xl uppercase">Sign up to learn more</h1>
+    <form action="submission.html">
+      <label for="name" class="font-bold block" >what is your name?</label>
+      <input type="text" name="name" class="border border-gray-400 rounded my-2 p-2 focus:outline-none">
+      <label for="favorite-color">What is your favorite color?</label>
+      <input type="text" name="favoriteColor">
+      <button class="block mt-4 bg-green-400 text-white px-4 py-2 rounded mx-auto">Submit form!</button>
+    </form>
+  </div>
+</body>
+</html>
